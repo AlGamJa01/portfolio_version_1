@@ -20,7 +20,7 @@ a:visited {
 }
 
 a:hover {
-    color: #571600;
+    color: #180600;
     text-decoration: underline;
 }
 
@@ -60,7 +60,7 @@ header {
 
 #home_title {
     font-size: 1.7rem;
-    font-weight: bolder;
+    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,7 +75,6 @@ header {
 }
 
 #info {
-    margin-top: 7vh;
     margin-left: 3.5rem;
 }
 
@@ -87,7 +86,7 @@ header {
 
 #kor_name {
     font-size: 1.5rem;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 #bir_name,
@@ -148,8 +147,8 @@ footer {
 }
 
 #mail_name {
-    font-size: 1rem;
-    font-weight: 1000;
+    margin-top: 1rem;
+    font-weight: bold;
 }
 
 /* 위 | 오른쪽 | 아래 | 왼쪽 */
