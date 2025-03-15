@@ -1,0 +1,155 @@
+@import "./reset.css";
+
+body {
+    line-height: 1.9;
+    font-size: 1.2rem;
+}
+
+li {
+    list-style: none;
+}
+
+a:link {
+    color: #180600;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #180600;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #571600;
+    text-decoration: underline;
+}
+
+/* ------header------ */
+
+header {
+    width: 100vw;
+    background-color: #f9f8f8;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#head {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    gap: 9vw;
+    padding: 1.5rem;
+}
+
+/* ------home------ */
+
+#home {
+    height: 100vh;
+    background-color: #eeeeee;
+    color: #180600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home_title {
+    font-size: 1.7rem;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+#potato {
+    width: 17rem;
+    height: 17rem;
+    background-image: url(./img/감자고양이.jpg);
+    background-size: cover;
+}
+
+#info {
+    margin-top: 7vh;
+    margin-left: 3.5rem;
+}
+
+#name {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#kor_name {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+#bir_name,
+#edu_name {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* ------skill------ */
+
+#skill {
+    height: 100vh;
+    background-color: #959595;
+    color: #010000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+#skill_stat {
+    display: flex;
+    gap: 5rem;
+}
+
+/* ------project------ */
+
+#project {
+    height: 100vh;
+    background-color: #6c6c6c;
+    color: #010000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* ------footer------ */
+
+footer {
+    width: 100%;
+    bottom: 0;
+    background-color: #fcfcfc;
+}
+
+#foot {
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#mail_name {
+    font-size: 1rem;
+    font-weight: 1000;
+}
+
+/* 위 | 오른쪽 | 아래 | 왼쪽 */
